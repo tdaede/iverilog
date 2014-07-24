@@ -32,7 +32,7 @@ mandir = @mandir@
 includedir = @includedir@
 
 # For a cross compile these defines will need to be set accordingly.
-HOSTCC = @CC@
+HOSTCC = gcc
 HOSTCFLAGS = @WARNING_FLAGS@ @CFLAGS@
 
 CC = @CC@
